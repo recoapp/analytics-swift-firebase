@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:6.2
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -23,12 +23,12 @@ let package = Package(
         .package(
             name: "Segment",
             url: "https://github.com/segmentio/analytics-swift.git",
-            from: "1.4.7"
+            from: "1.9.1"
         ),
 		.package(
 			name: "Firebase",
 			url: "https://github.com/firebase/firebase-ios-sdk",
-			from: "11.1.0"
+			from: "12.9.0"
 		)
     ],
     targets: [
